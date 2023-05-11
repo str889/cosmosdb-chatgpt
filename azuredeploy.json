@@ -11,13 +11,13 @@
   "parameters": {
     "location": {
       "type": "string",
-      "defaultValue": "South Central US",
+      "defaultValue": "UK South",
       "allowedValues": [
-        "South Central US",
-        "East US"
+        "UK South",
+        "West Europe"
       ],
       "metadata": {
-        "description": "Location where all resources will be deployed. This value defaults to the **South Central US** region."
+        "description": "Location where all resources will be deployed. This value defaults to the **UK South** region."
       }
     },
     "name": {
@@ -58,16 +58,16 @@
     },
     "appGitRepository": {
       "type": "string",
-      "defaultValue": "https://github.com/azure-samples/cosmosdb-chatgpt.git",
+      "defaultValue": "https://github.com/str889/cosmosdb-chatgpt.git",
       "metadata": {
-        "description": "Git repository URL for the chat application. This defaults to the [`azure-samples/cosmosdb-chatgpt`](https://github.com/azure-samples/cosmosdb-chatgpt) repository."
+        "description": "Git repository URL for the chat application. This defaults to the [`str889/cosmosdb-chatgpt`](https://github.com/azure-samples/cosmosdb-chatgpt) repository."
       }
     },
     "appGetRepositoryBranch": {
       "type": "string",
       "defaultValue": "main",
       "metadata": {
-        "description": "Git repository branch for the chat application. This defaults to the [**main** branch of the `azure-samples/cosmosdb-chatgpt`](https://github.com/azure-samples/cosmosdb-chatgpt/tree/main) repository."
+        "description": "Git repository branch for the chat application. This defaults to the [**main** branch of the `str889/cosmosdb-chatgpt`](https://github.com/str889/cosmosdb-chatgpt/tree/main) repository."
       }
     }
   },
