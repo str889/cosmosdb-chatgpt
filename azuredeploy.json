@@ -11,13 +11,13 @@
   "parameters": {
     "location": {
       "type": "string",
-      "defaultValue": "UK South",
+      "defaultValue": "South Central US",
       "allowedValues": [
-        "UK South",
+        "South Central US",
         "West Europe"
       ],
       "metadata": {
-        "description": "Location where all resources will be deployed. This value defaults to the **UK South** region."
+        "description": "Location where all resources will be deployed. This value defaults to the **South Central US** region."
       }
     },
     "name": {
@@ -60,7 +60,7 @@
       "type": "string",
       "defaultValue": "https://github.com/str889/cosmosdb-chatgpt.git",
       "metadata": {
-        "description": "Git repository URL for the chat application. This defaults to the [`str889/cosmosdb-chatgpt`](https://github.com/azure-samples/cosmosdb-chatgpt) repository."
+        "description": "Git repository URL for the chat application. This defaults to the [`str889/cosmosdb-chatgpt`](https://github.com/str889/cosmosdb-chatgpt) repository."
       }
     },
     "appGetRepositoryBranch": {
